@@ -9,7 +9,8 @@ Although the core goal of OpenDream is to provide one-way parity with BYOND, the
 A key example of this is [pragmas](https://github.com/OpenDreamProject/OpenDream/wiki/Pragmas---Error-Emissions). Pragmas provide configurable compiler emissions for things such as runtime errors that *can* be detected at compiletime but BYOND fails to detect. Utilizing pragmas while maintaining BYOND compatibility is as simple as declaring them in their own code file and putting this in your code somewhere:
 ```
 #ifdef OPENDREAM
-#include("/path/to/pragma/file.dm") // Don't include the file of pragmas unless `OPENDREAM` is defined (which OpenDream defines for you)
+// Don't include the file of pragmas unless `OPENDREAM` is defined (which OpenDream defines for you)
+#include("/path/to/pragma/file.dm")
 #endif
 ```
 
