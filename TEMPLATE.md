@@ -1,14 +1,11 @@
 # Short, Properly Capitalized Title of RFC
 
-<!-->Your title should convey the basic jist of your proposed changes. It should be short.<!-->
+Your title should convey the basic jist of your proposed changes. It should be short. Also, make sure you fill in the table below and remove these explanatory sentences.
 
-<!-->Avoid modifying the first two rows of the table<!-->
-<!-->Fill in the bottom row<!-->
 | Lead Author(s) | Implemented | GitHub Links |
 |---|---|---|
 | Your Name(s) Here | :white_check_mark: Yes or :warning: Partially or :information_source: Open PR or :x: No | PR Link(s) or TBD |
 
-<!-->
 `Lead Authors` should be the names that you use on GitHub and/or Discord. This is optional but strongly recommended, since:
 
 - This acknowledges credit where it is due
@@ -17,9 +14,8 @@
 `Implemented` is the status of the feature. The PR implementing this RFC should go back and edit this RFC accordingly and include a link to the PR.
 
 Github links can include multiple PRs, if relevant. If it has not been implemented at all, leave as "TBD" (to be determined).
-!-->
 
-<!--> For each subsection below, replace the explanatory text with your proposal <!-->
+For each subsection below, replace the explanatory text with your proposal.
 
 ## Overview
 
