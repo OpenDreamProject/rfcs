@@ -46,7 +46,7 @@ Every open RFC will be open for at least two calendar weeks. This is to make sur
 
 The first week should be used to resolve any major technical or design problems raised by the OpenDream team, though everyone is encouraged to provide input. After the first week and any major problems are resolved, a member of the OpenDream team should share the RFC in the following places to solicit feedback from the wider community for the second week:
 - `#codebase-announcements` channel in OpenDream's Discord.
-- `#headcoderbus` channel in coderbus's Discord.
+- `#maintainerbus` channel in coderbus's Discord.
 - `#coderbus` channel in coderbus's Discord.
 
 When the initial comment period expires, the RFC can be merged if there's consensus that the change is important and that the details of the syntax/semantics presented are workable. The decision to merge the RFC is made by the OpenDream team.
