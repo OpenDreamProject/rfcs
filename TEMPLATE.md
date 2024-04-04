@@ -3,9 +3,10 @@
 <!-->Your title should convey the basic jist of your proposed changes. It should be short.<!-->
 
 <!-->Avoid modifying the first two rows of the table<!-->
+<!-->Fill in the bottom row<!-->
 | Lead Author(s) | Implemented | GitHub Links |
 |---|---|---|
-<!-->Fill in this bottom row:<!-->| Your Name(s) Here | :white_check_mark: Yes or :warning: Partially or :information_source: Open PR or :x: No | PR Link(s) or TBD |
+| Your Name(s) Here | :white_check_mark: Yes or :warning: Partially or :information_source: Open PR or :x: No | PR Link(s) or TBD |
 
 <!-->
 `Lead Authors` should be the names that you use on GitHub and/or Discord. This is optional but strongly recommended, since:
