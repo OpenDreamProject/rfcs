@@ -39,7 +39,7 @@ As the OpenDream userbase grows, reversing these decisions will only become more
 To open an RFC, a Pull Request must be opened which creates a new Markdown file in `docs/` folder. The RFCs should follow the template `TEMPLATE.md`, and should have a file name that matches the RFC's title.
 
 ### RFC Drafts
-If you are in the early stages of the RFC and would like to solicit feedback on major considerations for your proposal, but it isn't ready for formal review, you can open your RFC as a Draft Pull Request. Once you are ready, mark it as ready for review and proceed to the below section:
+If you are in the early stages of designing the RFC and would like to solicit feedback on major considerations for your proposal, but it isn't ready for formal review, you can open your RFC as a Draft Pull Request. Once you are ready, mark it as ready for review and proceed to the below section:
 
 ### RFC Review & Finalization
 Every open RFC will be open for at least two calendar weeks. This is to make sure that there is sufficient time to review the proposal and raise concerns or suggest improvements. The discussion points should be reflected on the PR comments; when discussion happens outside of the comment stream, the points salient to the RFC should be summarized as a followup.
