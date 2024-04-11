@@ -44,7 +44,7 @@ If you are in the early stages of designing the RFC and would like to solicit fe
 ### RFC Review & Finalization
 Every open RFC will be open for at least two calendar weeks. This is to make sure that there is sufficient time to review the proposal and raise concerns or suggest improvements. The discussion points should be reflected on the PR comments; when discussion happens outside of the comment stream, the points salient to the RFC should be summarized as a followup.
 
-The first week should be used to resolve any major technical or design problems raised by the OpenDream team, though everyone is encouraged to provide input. After the first week and any major problems are resolved, a member of the OpenDream team should share the RFC in the following places to solicit feedback from the wider community for the second week:
+The first week should be used to resolve any major technical or design problems raised by the OpenDream team, though everyone is encouraged to provide input. After the first week and any major problems are resolved, a Maintainer from the OpenDream team should share the RFC in the following places to solicit feedback from the wider community for the second week:
 - `#codebase-announcements` channel in OpenDream's Discord.
 - `#maintainerbus` channel in coderbus's Discord.
 - `#coderbus` channel in coderbus's Discord.
