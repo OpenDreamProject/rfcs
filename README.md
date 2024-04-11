@@ -51,7 +51,7 @@ The first week should be used to resolve any major technical or design problems 
 
 When the initial comment period expires, the RFC can be merged if there's consensus that the change is important and that the details of the syntax/semantics presented are workable. The decision to merge the RFC is made by the OpenDream team.
 
-If at any point the RFC undergoes substantial changes (anything more than spelling/formatting/wording), the two-week timer may (at OpenDream staff discretion) be reset to the time the last substantial commit was pushed.
+If at any point the RFC undergoes substantial changes (anything more than spelling/formatting/wording), the two-week timer may (at OpenDream Maintainer discretion) be reset to the time the last substantial commit was pushed.
 
 In general, RFCs can also be updated after merging to make the language of the RFC more clear, but should not change their meaning. When a new feature is built on top of an existing feature that has an RFC, a new RFC should be created instead of editing an existing RFC. That being said, a superceded RFC should be edited to include a notice and a link to the new RFC.
 
