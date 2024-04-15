@@ -1,6 +1,6 @@
 # OpenDream RFC Repo
 
-This repository stores RFCs for the [OpenDream](https://github.com/OpenDreamProject/OpenDream) project. Current and future users of OpenDream are strongly encouraged to watch this repository and provide constructive input on all open pull requests.
+This repository stores RFCs _(Request For Comments)_ for the [OpenDream](https://github.com/OpenDreamProject/OpenDream) project. Current and future users of OpenDream are strongly encouraged to watch this repository and provide constructive input on all open pull requests.
 
 ## Motivation
 
