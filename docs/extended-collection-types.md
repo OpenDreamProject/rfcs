@@ -156,9 +156,9 @@ Note that `var/const/list/L` is not valid in BYOND and usages of constant collec
 
 Collections (other than the existing BYOND `list()` and the fixed-length `array()` types) will expose the C# `Capacity` property and `EnsureCapacity()` functionality. These operate similarly to `list.len`, except capacity refers to the number of elements the collection's internal data structure can hold without allocating more memory. Ergo a list could have 3 elements and a capacity of 5, and no memory allocation will occur until a 6th element is inserted.
 
-Accessing `list.capacity` (and similar for other collection types) will return the currect value of the C# `List.Capacity`. Setting it will set it in C#, which may runtime if the new capacity is smaller than the current length of the collection.
+Accessing `collection.capacity` (and similar for other collection types) will return the currect value of the C# `Capacity` property. Setting it will set it in C#, which may runtime if the new capacity is smaller than the current length of the collection.
 
-Calling `list.ensure_capacity(size)` (and similar for other collection types) will call the C# method `List.EnsureCapacity(size)`. This method ensures that the capacity of this collection is at least the specified capacity. If the current capacity is less than capacity, it is increased to at least the specified capacity.
+Calling `collection.ensure_capacity(size)` will call the C# method `EnsureCapacity(size)`. This method ensures that the capacity of this collection is at least the specified capacity. If the current capacity is less than capacity, it is increased to at least the specified capacity.
 
 ## BYOND List Deprecation Pragma
 
