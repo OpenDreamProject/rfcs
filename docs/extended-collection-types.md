@@ -53,7 +53,7 @@ Example usage:
 var/dict/bar = array("a" = 1,"b" = 2,"c" = 3)
 bar += "d" // Compile-time error, no value specified
 
-bad["d"] = 4 // Valid modification
+bar["d"] = 4 // Valid modification
 
 world.log << bar["c"] // Prints 3
 
