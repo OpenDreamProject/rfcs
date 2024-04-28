@@ -73,7 +73,7 @@ world.log << bar[1] // Compile-time error, dicts can't be numerically indexed
 `dict.get_value(key)` will return the value of the specified `key` or `null` if the key is not present in the dictionary.
 
 ### HashSet
-Essentially identical to a list, except it cannot contain duplicates. Inserting an element that is already present in the hashset is not an error and instead does nothing.
+Essentially identical to an OD list, except it cannot contain duplicates. Inserting an element that is already present in the hashset is not an error and instead does nothing.
 
 Direct insertion (e.g. `hashset += "foo"`) is supported, but `hashset.add(element)` will return `TRUE` or `FALSE` depending on if the element already existed in the hashset.
 
