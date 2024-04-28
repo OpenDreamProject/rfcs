@@ -63,7 +63,7 @@ bar.contains_key("test") // Returns FALSE
 
 bar.get_value("test") // Returns null, since the key doesn't exist
 
-world.log << bar[1] // Runtime error, dicts can't be numerically indexed
+world.log << bar[1] // Compile-time error, dicts can't be numerically indexed
 ```
 
 `dict.keys` and `dict.values` will return a new `array()` of the dictionary's keys and values, respectively. Modifying these will not modify the existing dictionary.
