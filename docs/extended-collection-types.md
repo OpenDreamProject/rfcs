@@ -142,7 +142,7 @@ A `stack.to_array()` helper will also be provided, and returns the stack's eleme
 
 ## Constant Collections
 
-All OpenDream collections can now be declared as constant, which prevents any future modifications to the collection contents and will enable future internal optimizations.
+All OpenDream collections (where it makes sense to do so) can now be declared as constant, which prevents any future modifications to the collection contents and will enable future internal optimizations.
 
 Example usage:
 ```
