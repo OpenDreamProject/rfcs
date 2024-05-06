@@ -50,7 +50,7 @@ A collection of key-value pairs. Equivalent to existing associative lists, and w
 
 Example usage:
 ```
-var/dict/bar = array("a" = 1,"b" = 2,"c" = 3)
+var/dict/bar = dict("a" = 1,"b" = 2,"c" = 3)
 bar += "d" // Compile-time error, no value specified
 
 bar["d"] = 4 // Valid modification
