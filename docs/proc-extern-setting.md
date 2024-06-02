@@ -18,7 +18,7 @@ Overall, the main motivation of `opendream_extern_impl` is to provide neater and
 
 ## Design
 
-The proposal includes a new proc settings:
+The proposal includes a new proc setting:
 
 - `opendream_extern_impl`
   This defines the name and library of the external function, stored in a list tuple. The same naming schema as `call_ext` is used here.
